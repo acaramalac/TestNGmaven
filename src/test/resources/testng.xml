@@ -1,0 +1,17 @@
+<suite name="Suite1" verbose="2" parallel="tests" thread-count="3" >
+
+    <test name="Test1" >
+        <groups>
+            <run>
+                <include name = "unit"/>
+                <include name = "web"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "samples.SampleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+    </test>
+</suite>
